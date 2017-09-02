@@ -1,4 +1,4 @@
-﻿(function () {
+window.addEventListener("load", function () {
     var slideIndex = 1;
     showSlides(slideIndex);
     document.getElementsByClassName("prev-slide")[0].addEventListener("click", function (event) {
@@ -19,4 +19,4 @@
         }
         slides[slideIndex - 1].style.display = "block";
     }
-})();
+});
