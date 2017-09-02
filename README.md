@@ -1,2 +1,2 @@
 # barbershop
-https://lightcraf.github.io/barbershop/
+https://lightcraf.github.io/barbershop
