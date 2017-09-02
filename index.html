@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Barbershop "Borodinski"</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="body-index-page">
+    <header>
+        <nav class="top-nav" role="navigation">
+            <div class="top-menu-icon"></div>
+            <ul id="show-top-nav" class="top-nav-list">
+                <li><a class="nav-link" href="#">Информация</a></li>
+                <li><a class="nav-link" href="#">Новости</a></li>
+                <li><a class="nav-link" href="price.html">Прайс-лист</a></li>
+                <li><a class="nav-link" href="item.html">Магазин</a></li>
+                <li><a class="nav-link" href="#">Контакты</a></li>
+                <li><a class="nav-link sign-in" href="#" id="showForm">Вход</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main" role="main">
+        <div class="row logo-container">
+            <div class="col-12">
+                <h1>
+                    <a href="index.html">
+                        <img class="logo" src="images/index/borodinski-logo.png" alt="barbershop-logo" title="Barbershop 'Borodinski'" />
+                    </a>
+                </h1>
+            </div>
+        </div>
+        <section class="row advantages">
+            <div class="col-4 adv-fix-1">
+                <b class="advantages-header">Быстро</b>
+                <p class="advantages-text">
+                    Мы делаем свою работу быстро! Два часа пролетят незаметно
+                    и вы – счастливый обладетель стильной стрижки-минутки!
+                </p>
+            </div>
+            <div class="col-4">
+                <b class="advantages-header">Круто</b>
+                <p class="advantages-text">
+                    Забудьте, как вы стриглись раньше.<br /> Мы сделаем из вас
+                    звезду футбола или кино! Во всяком случае внешне.
+                </p>
+            </div>
+            <div class="col-4 adv-fix-2">
+                <b class="advantages-header adv-header-fix-2">Дорого</b>
+                <p class="advantages-text">
+                    Наши мастера – профессионалы своего дела и не могут стоить
+                    дешево. К тому же, разве цена не дает определеный статус?
+                </p>
+            </div>
+        </section>
+
+        <section class="row news-photogallery-wrapper">
+            <div class="col-6 box-padding border-separator">
+                <h2 class="h2-title">Новости</h2>
+                <p class="normal-text">
+                    Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки <br />
+                    <time class="news-time" datetime="2017-01-11 20:00"><span>11</span> января</time>
+                </p>
+                <p class="normal-text">
+                    В нашей команде пополнение, борис «бритва» стригунец, обладетель множества титулов и
+                    наград пополнил наши стройные ряды <br />
+                    <time class="news-time" datetime="2017-01-18 20:00"><span>18</span> января</time>
+                </p>
+                <a href="#" class="btn btn-news">Все новости</a>
+            </div>
+            <div class="col-6 box-padding photogallery-wrapper">
+                <h2 class="h2-title">Фотогалерея</h2>
+                <div class="photogallery">
+                    <figure class="slides">
+                        <img src="images/index/interior.jpg" alt="barbershop-interior" />
+                    </figure>
+                    <figure class="slides">
+                        <img src="images/index/interior2.jpg" alt="barbershop-interior" />
+                    </figure>
+                    <figure class="slides">
+                        <img src="images/index/interior3.jpg" alt="barbershop-interior" />
+                    </figure>
+                    <div class="two-btn-wrapper">
+                        <a href="#" class="btn btn-photo prev-slide">Назад</a>
+                        <a href="#" class="btn btn-photo next-slide">Вперед</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="row contact-box">
+            <div class="col-6 box-padding border-separator">
+                <h2 class="h2-title">Контактная информация</h2>
+                <p class="normal-text">
+                    Барбершоп <q>Бородинский</q><br />
+                    Адрес: г. Киев, ул. Петра Сагайдачного, д. 16<br />
+                    Телефон: +3 (888) 888-88-88
+                </p>
+                <p class="normal-text">
+                    Время работы:<br />
+                    пн – пт: с 10:00 до 22:00<br />
+                    сб – вс: с 10:00 до 19:00
+                </p>
+                <div class="two-btn-wrapper">
+                    <a href="#" class="btn btn-contact">Как проехать</a>
+                    <a href="#" class="btn btn-contact">Обратная связь</a>
+                </div>
+            </div>
+            <div class="col-6 box-padding">
+                <div class="enroll-wrapper">
+                    <h2 class="h2-title">Записаться</h2>
+                    <p class="normal-text">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+                    <form class="enroll-form" role="form">
+                        <label for="date">Дата</label>
+                        <input type="date" id="date" placeholder="ДАТА" required />
+                        <label for="time">Время</label>
+                        <input type="time" id="time" placeholder="ВРЕМЯ" required />
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" placeholder="ВАШЕ ИМЯ" required />
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" placeholder="ТЕЛЕФОН" required />
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="index-page-footer" role="contentinfo">
+        <div class="row footer-container">
+            <div class="col-4">
+                <p class="contact-wrapper">
+                    Барбершоп <q>Бородинский</q> <br />
+                    Адрес: г. Киев, ул. Петра Сагайдачного, д. 16<br />
+                    <a href="#" id="showMap" class="map-link">Как нас найти?</a><br />
+                    Телефон: <a href="tel:+74956660266" class="contact-tel">+3 (888) 888-88-88</a>
+                </p>
+            </div>
+            <div class="col-4 footer-icons">
+                <p>Давайте дружить!</p>
+                <div class="icons-box">
+                    <a href="#" class="btn-social-vk"></a>
+                    <a href="#" class="btn-social-f"></a>
+                    <a href="#" class="btn-social-inst"></a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="copyright-wrapper">
+                    <p>Разработано:</p>
+                    <a class="btn copyright-btn" href="#">htmlacademy.ru</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-map">
+        <span class="close" id="closeMap">&times;</span>
+    </div>
+
+    <div class="modal-form-box">
+        <div class="login">
+            <h2>Личный кабинет</h2>
+            <p>Введите пожалуйста свой логин и пароль</p>
+            <form class="modal-form">
+                <label for="login">Логин</label>
+                <input type="text" id="login" placeholder="ЛОГИН" required /><br />
+                <label for="password">Пароль</label>
+                <input type="password" id="password" placeholder="ПАРОЛЬ" required /><br />
+                <label class="switch-wrapper">
+                    <input type="checkbox">
+                    <span class="check"></span>
+                </label>
+                <span>запомните меня</span>
+                <a href="#">Я забыл пароль!</a>
+                <button type="submit">Войти</button>
+            </form>
+        </div>
+        <span class="close" id="closeForm">&times;</span>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>

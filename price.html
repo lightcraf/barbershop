@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Прайс-лист - Barbershop "Borodinski"</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="body-light-bg">
+    <header>
+        <nav class="top-nav" role="navigation">
+            <div class="top-menu-icon"></div>
+            <h1 class="header-logo"><a href="index.html"><img src="images/index/logo.png" alt="logo" /></a></h1>
+            <ul id="show-top-nav" class="top-nav-list">
+                <li><a class="nav-link" href="#">Информация</a></li>
+                <li><a class="nav-link" href="#">Новости</a></li>
+                <li><a class="nav-link active" href="price.html">Прайс-лист</a></li>
+                <li><a class="nav-link" href="item.html">Магазин</a></li>
+                <li><a class="nav-link" href="#">Контакты</a></li>
+                <li><a class="nav-link sign-in" href="#" id="showForm">Вход</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-price-page" role="main">
+        <section class="row product-wrapper-nav">
+            <div class="col-12">
+                <h2 class="product-title-nav">Прайс-лист</h2>
+                <ul class="product-breadcrumbs-wrapper">
+                    <li><a href="index.html" class="product-breadcrumbs-nav">Главная</a></li>
+                    <li><span class="product-breadcrumbs-nav rhombus">Прайс-лист</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-12">
+                <p class="service-title"><span class="center-line">Истинно мужская классика</span></p>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-6">
+                <h3 class="h3-title">
+                    Мы используем только <br />
+                    лучшие средства:
+                </h3>
+                <ul class="service-list">
+                    <li class="service-list-item">Baxter of California</li>
+                    <li class="service-list-item">Mr Natty</li>
+                    <li class="service-list-item">Suavecito</li>
+                    <li class="service-list-item">Malin+Goetz</li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <h3 class="h3-title">
+                    Цены на услуги <br />
+                    наших мастеров:
+                </h3>
+                <table class="price-table">
+                    <tr>
+                        <td>Стрижка</td>
+                        <td>1500 грн.</td>
+                    </tr>
+                    <tr>
+                        <td>Стрижка бороды</td>
+                        <td>500 грн.</td>
+                    </tr>
+                    <tr>
+                        <td>Накрутка усов</td>
+                        <td>350 грн.</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="h3-title about-title">Несколько слов о нас:</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <p class="about-text normal-text">
+                        Наша парикмахерская занимается исключительно мужскими стрижками.
+                        Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.
+                        Мы не работаем на количество, мы делаем качество.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p class="about-text normal-text">
+                        Наша мастерская расположена в центре города, поэтому сделать стильную
+                        стрижку можно в любое время, даже в обеденный перерыв. Здесь вы
+                        можете погрузиться в удобную для вас атмосферу, чувствовать себя
+                        комфортно и свободно!
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="row footer-container">
+            <div class="col-4">
+                <p class="contact-wrapper">
+                    Барбершоп <q>Бородинский</q> <br />
+                    Адрес: г. Киев, ул. Петра Сагайдачного, д. 16<br />
+                    <a href="#" id="showMap" class="map-link">Как нас найти?</a><br />
+                    Телефон: <a href="tel:+74956660266" class="contact-tel">+3 (888) 888-88-88</a>
+                </p>
+            </div>
+            <div class="col-4 footer-icons">
+                <p>Давайте дружить!</p>
+                <div class="icons-box">
+                    <a href="#" class="btn-social-vk"></a>
+                    <a href="#" class="btn-social-f"></a>
+                    <a href="#" class="btn-social-inst"></a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="copyright-wrapper">
+                    <p>Разработано:</p>
+                    <a class="btn copyright-btn" href="#">htmlacademy.ru</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-map">
+        <span class="close" id="closeMap">&times;</span>
+    </div>
+
+    <div class="modal-form-box">
+        <div class="login">
+            <h2>Личный кабинет</h2>
+            <p>Введите пожалуйста свой логин и пароль</p>
+            <form class="modal-form">
+                <label for="login">Логин</label>
+                <input type="text" id="login" placeholder="ЛОГИН" required /><br />
+                <label for="password">Пароль</label>
+                <input type="password" id="password" placeholder="ПАРОЛЬ" required /><br />
+                <label class="switch-wrapper">
+                    <input type="checkbox">
+                    <span class="check"></span>
+                </label>
+                <span>запомните меня</span>
+                <a href="#">Я забыл пароль!</a>
+                <button type="submit">Войти</button>
+            </form>
+        </div>
+        <span class="close" id="closeForm">&times;</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
