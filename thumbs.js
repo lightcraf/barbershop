@@ -1,4 +1,4 @@
-﻿(function () {
+window.addEventListener("load", function () {
     var largeImg = document.getElementById('largeImg');
     var thumbs = document.getElementById('thumbs');
 
@@ -17,4 +17,4 @@
         largeImg.src = href;
         largeImg.alt = title;
     }
-})();
+});
